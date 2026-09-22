@@ -52,8 +52,8 @@
 
 .emblem-container {
     position: relative;
-    width: 320px;
-    height: 320px;
+    width: 200px;
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,11 +63,11 @@
 /* Outer Glow & Rotating Tech Ring */
 .tech-ring {
     position: absolute;
-    width: 290px;
-    height: 290px;
+    width: 250px;
+    height:250px;
     border-radius: 50%;
-    border: 2px dashed rgba(245, 158, 11, 0.3);
-    box-shadow: 0 0 30px rgba(245, 158, 11, 0.1);
+    border: 4px dashed rgba(15, 199, 181, 0.3);
+    box-shadow: 0 0 30px rgba(215, 21, 21, 0.1);
     animation: spin 25s linear infinite;
 }
 
@@ -78,8 +78,8 @@
 /* Solid Dark Metallic Base */
 .emblem-base {
     position: absolute;
-    width: 250px;
-    height: 250px;
+    width: 210px;
+    height: 210px;
     background: linear-gradient(145deg, #1f2937, #0b0f19);
     border-radius: 50%;
     border: 2px solid rgba(255, 215, 0, 0.5);
@@ -96,14 +96,14 @@
 /* NR Monogram with Gold Metallic Gradient */
 .nr-text {
     font-family: 'Syncopate', sans-serif;
-    font-size: 56px;
-    font-weight: 700;
+    font-size: 42px;
+    font-weight: 500;
     background: linear-gradient(135deg, #fff 20%, #f59e0b 80%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     letter-spacing: 2px;
     line-height: 1;
-    margin-bottom: 8px;
+    margin-bottom: 12px;
     filter: drop-shadow(0 4px 10px rgba(245, 158, 11, 0.3));
 }
 
@@ -112,7 +112,7 @@
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 10px;
     font-weight: 850;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     color: #9ca3af;
     text-transform: uppercase;
     margin-bottom: 15px;
@@ -143,15 +143,15 @@
 /* Premium Gold Bottom Banner */
 .bottom-banner {
     position: absolute;
-    bottom: -12px;
-    background: linear-gradient(90deg, #f59e0b, #fbbf24, #f59e0b);
+    bottom: -36px;
+    background: linear-gradient(90deg, #c81111, #fbbf24, #d5ac07);
     color: #030712;
     font-family: 'Plus Jakarta Sans', sans-serif;
-    font-size: 11px;
+    font-size: 8px;
     font-weight: 900;
     letter-spacing: 3px;
-    padding: 7px 24px;
-    border-radius: 6px;
+    padding: 5px 16px;
+    border-radius: 5px;
     box-shadow: 0 8px 20px rgba(245, 158, 11, 0.4);
     text-transform: uppercase;
     z-index: 3;
@@ -722,14 +722,13 @@
                             </div>
 
                             <div class="emblem-container">
-    <!-- Background Tech Ring -->
+     <!-- Background Tech Ring -->
     <div class="tech-ring"></div>
-
     <!-- Main Logo Body -->
     <div class="emblem-base">
         <div class="nr-text">NR</div>
         <div class="role-text">Network Engineer</div>
-        
+
         <div class="cert-pill">
             <svg viewBox="0 0 24 24">
                 <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
